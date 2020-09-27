@@ -53,11 +53,17 @@ Verify the link with the command
 git remote -v
 ```
 
-push the local repository to Github
+push the local repository to Github the first time use the -u flag. The -u flag is used to set origin as the upstream remote in your git config. As you push a branch successfully or up to date it, it adds upstream reference. As you push local branch with git push -u option, that local branch is linked with the remote branch automatically
 
 ```bash
-
 git push -u origin master
+```
+
+Then, to keep on pushing the changes no flags are required
+
+```bash
+git pull origin master
+git push origin master
 ```
 
 ### Public Key generation
