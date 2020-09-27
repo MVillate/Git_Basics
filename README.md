@@ -47,7 +47,7 @@ Previously a Github blank repository has to be created
 git remote add origin git@github.com:MVillate/Git_Basics.git
 ```
 
-Verify the link with the following command 
+Verify the link with the next command 
 
 ```bash
 git remote -v
