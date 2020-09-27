@@ -94,7 +94,7 @@ To create a branch
 git branch name_prompt
 ```
 
-To select the branch to start working on it
+To select the branch to start working on it. After this point you can start commiting in this branch normally.
 
 ```bash
 git checkout name_prompt
@@ -121,4 +121,36 @@ git branch -a
 * name_prompt
   remotes/origin/master
   remotes/origin/name_prompt
+```
+
+### Merging Branches
+
+To merge the branch with master, select the master branch
+
+```bash
+git checkout master
+```
+
+Pull the latest changes from the master branch if there are some
+
+```bash
+git pull origin master
+```
+
+Merge the branches locally
+
+```bash
+git merge name_prompt
+```
+
+Confirm that the branches have merged
+
+```bash
+git branch --merged
+```
+
+Push the new merged branch to the remote repository
+
+```bash
+git push origin master
 ```
