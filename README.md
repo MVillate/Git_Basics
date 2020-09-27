@@ -86,7 +86,7 @@ Add the key to https://github.com/settings/ssh/new
 
 ## Branches
 
-### Commands
+### Creating and selecting branches
 
 To create a branch
 
@@ -149,8 +149,32 @@ Confirm that the branches have merged
 git branch --merged
 ```
 
-Push the new merged branch to the remote repository
+Push the new merged branch to the remote repository. After that, GitHub will show the following message in the name_prompt branch **"This branch is even with master."**
 
 ```bash
 git push origin master
+```
+
+### Deleting Branches
+
+Once the branches have merged, the non-master branch is no longer necessary. To delete it locally, use the following command
+
+```bash
+git branch -d name_prompt
+```
+
+To delete the branch in the remote repository
+
+```bash
+git push origin --delete name_prompt
+```
+
+To verify that the unnecessary branch has been deleted locally and in the remote repository
+
+```bash
+git branch -a
+  master
+* name_prompt
+  remotes/origin/master
+  remotes/origin/name_prompt
 ```
