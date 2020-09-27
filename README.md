@@ -18,6 +18,11 @@ git status
 git log
 ```
 
+```bash
+git branch -a
+git remote -v
+```
+
 ### Staging
 
 ```bash
