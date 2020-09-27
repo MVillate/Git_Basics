@@ -1,3 +1,7 @@
+# GIT BASICS
+
+## Commands
+
 ### Initialization
 
 ```bash
