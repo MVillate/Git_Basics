@@ -48,7 +48,7 @@ push the local repository to Github
 
 ```bash
 
-
+git push -u origin master
 ```
 
 ### Public Key generation
