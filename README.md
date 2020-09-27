@@ -173,8 +173,6 @@ To verify that the unnecessary branch has been deleted locally and in the remote
 
 ```bash
 git branch -a
-  master
-* name_prompt
+* master
   remotes/origin/master
-  remotes/origin/name_prompt
 ```
