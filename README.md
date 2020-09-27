@@ -107,3 +107,8 @@ To verify the existing branches
 * master
   name_prompt
 ```
+
+To associate for the first time the local branch to a remote repository
+```
+git push -u origin name_prompt
+```
