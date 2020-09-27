@@ -1,6 +1,6 @@
 # GIT BASICS
 
-## Commands
+## Local commands and link to GitHub
 
 ### Initialization
 
@@ -83,3 +83,27 @@ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 Add the key to https://github.com/settings/ssh/new
+
+## Branches
+
+### Commands
+
+To create a branch
+
+```bash
+git branch name_prompt
+```
+
+To select the branch to start working on it
+
+```bash
+git checkout name_prompt
+```
+
+To verify the existing branches
+
+```bash
+(venv) PRG-116637-C02CK1BXMD6W:Git_Basics manuel_villate$ git branch
+* master
+  name_prompt
+```
