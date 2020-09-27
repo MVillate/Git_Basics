@@ -112,3 +112,13 @@ To associate for the first time the local branch to a remote repository
 ```
 git push -u origin name_prompt
 ```
+
+To verify the existing branches including the remote
+
+```bash
+git branch -a
+  master
+* name_prompt
+  remotes/origin/master
+  remotes/origin/name_prompt
+```
