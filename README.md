@@ -66,6 +66,12 @@ git pull origin master
 git push origin master
 ```
 
+To remove the remote origin
+
+```bash
+git remote remove origin
+```
+
 ### Public Key generation
 
 The following command will generate a key in ~/.ssh. By default the name is id_rsa and id_rsa.pub
