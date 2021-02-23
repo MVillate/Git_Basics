@@ -120,7 +120,7 @@ To verify the existing branches
 
 ```bash
 (venv) PRG-116637-C02CK1BXMD6W:Git_Basics manuel_villate$ git branch
-* master
+* main
   name_prompt
 ```
 
@@ -133,9 +133,9 @@ To verify the existing branches including the remote
 
 ```bash
 git branch -a
-  master
+  main
 * name_prompt
-  remotes/origin/master
+  remotes/origin/main
   remotes/origin/name_prompt
 ```
 
