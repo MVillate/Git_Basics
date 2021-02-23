@@ -41,6 +41,12 @@ git commit -m *message*
 
 ### Adding the repository to Github
 
+Note: Now the origin master is not used. Use main
+
+```bash
+git branch -M main
+```
+
 Previously a Github blank repository has to be created
 
 ```bash
