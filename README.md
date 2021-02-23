@@ -68,7 +68,7 @@ git push origin master
 
 ### Public Key generation
 
-The following commando will generate a key in ~/.ssh. By default the name is id_rsa and id_rsa.pub
+The following command will generate a key in ~/.ssh. By default the name is id_rsa and id_rsa.pub
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "manuel.villate@gmail.com"
@@ -85,6 +85,10 @@ pbcopy < ~/.ssh/id_rsa.pub
 Add the key to https://github.com/settings/ssh/new
 
 ## Branches
+
+```bash
+git branch -M main
+```
 
 ### Creating and selecting branches
 
