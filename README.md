@@ -96,6 +96,22 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 Add the key to https://github.com/settings/ssh/new
 
+### Multiple keys
+
+folder ~/.ssh config file
+
+```bash
+Host *
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa_gh
+```
+
+Modify the line IdentityFile to add ~/.ssh/id_rsa_gh_mck then 
+
+```bash
+ssh-add  ~/.ssh/id_rsa_gh
+```
+
 ## Branches
 
 ```bash
