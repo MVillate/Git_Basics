@@ -62,14 +62,14 @@ git remote -v
 push the local repository to Github the first time use the -u flag. The -u flag is used to set origin as the upstream remote in your git config. As you push a branch successfully or up to date it, it adds upstream reference. As you push local branch with git push -u option, that local branch is linked with the remote branch automatically
 
 ```bash
-git push -u origin master
+git push -u origin main
 ```
 
 Then, to keep on pushing the changes no flags are required
 
 ```bash
-git pull origin master
-git push origin master
+git pull origin main
+git push origin main
 ```
 
 To remove the remote origin
@@ -141,16 +141,16 @@ git branch -a
 
 ### Merging Branches
 
-To merge the branch with master, select the master branch
+To merge the branch with main, select the main branch
 
 ```bash
-git checkout master
+git checkout main
 ```
 
-Pull the latest changes from the master branch if there are some
+Pull the latest changes from the main branch if there are some
 
 ```bash
-git pull origin master
+git pull origin main
 ```
 
 Merge the branches locally
@@ -165,15 +165,15 @@ Confirm that the branches have merged
 git branch --merged
 ```
 
-Push the new merged branch to the remote repository. After that, GitHub will show the following message in the name_prompt branch **"This branch is even with master."**
+Push the new merged branch to the remote repository. After that, GitHub will show the following message in the name_prompt branch **"This branch is even with main."**
 
 ```bash
-git push origin master
+git push origin main
 ```
 
 ### Deleting Branches
 
-Once the branches have merged, the non-master branch is no longer necessary. To delete it locally, use the following command
+Once the branches have merged, the non-main branch is no longer necessary. To delete it locally, use the following command
 
 ```bash
 git branch -d name_prompt
@@ -189,6 +189,6 @@ To verify that the unnecessary branch has been deleted locally and in the remote
 
 ```bash
 git branch -a
-* master
-  remotes/origin/master
+* main
+  remotes/origin/main
 ```
