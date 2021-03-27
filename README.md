@@ -16,6 +16,7 @@ git status
 
 ```bash
 git log
+git show
 ```
 
 ```bash
