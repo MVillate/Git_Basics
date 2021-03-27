@@ -33,6 +33,13 @@ git reset
 git reset *filename*
 ```
 
+### Diff
+
+```bash
+git diff
+git diff -r HEAD
+```
+
 ### Commiting
 
 ```bash
