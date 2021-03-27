@@ -57,7 +57,7 @@ git branch -M main
 Previously a Github blank repository has to be created
 
 ```bash
-git remote add origin git@github.com:MVillate/Git_Basics.git
+git remote add origin git@github.com:MVillate/git_basics.git
 ```
 
 Verify the link with the next command
@@ -92,7 +92,7 @@ The following command will generate a key in ~/.ssh. By default the name is id_r
 ```bash
 ssh-keygen -t rsa -b 4096 -C "manuel.villate@gmail.com"
 manuel_villate@PRG-116637-C02CK1BXMD6W .ssh % ls
-id_rsa		id_rsa.pub	known_hosts
+id_rsa	id_rsa.pub	known_hosts
 ```
 
 Copy the public key to github
